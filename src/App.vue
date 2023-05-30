@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template>
-        <AppHeader/>
+    <AppHeader/>
 </template>
 
 <style lang="scss" scoped>

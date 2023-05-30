@@ -26,6 +26,8 @@ export default {
 <style scoped>
 header {
     background-image: url("../assets/img/header-image-homepage.jpg");
-    height: 400px;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 } 
 </style>

@@ -1,16 +1,17 @@
 <script></script>
 <template>
-    <div class="position-absolute">
-        <h2>Caring <span>For Life</span></h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita inventore culpa</p>
+    <div class="position-absolute ">
+        <h2 class="m-0" >Caring <span>For Life</span></h2>
+        <p class="my-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> sit amet consectetur adipisicing elit. Quae quam iusto </p>
+        <button>LEARN MORE</button>
     </div>
-
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+@use "../../style/generic.scss" as *;
 
 div {
-    top: 50% ;
+    top: 40% ;
     left: 25%;
 }
 h2 {
@@ -20,6 +21,10 @@ h2 {
 }
 span:last-child {
     color: #3BAFBF!important;
+}
+p{
+    color: white;
+    white-space: normal;
 }
 
 </style>
