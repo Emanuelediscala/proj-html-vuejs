@@ -33,7 +33,7 @@ h3 {
 p {
     line-height:2em;
     margin: 20px 0;
-    color: gray;
+    
 }
 h5 {
     white-space: nowrap;
