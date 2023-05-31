@@ -1,10 +1,12 @@
 <script>
 import ContIntroduction from "./ContComp/ContIntroduction.vue"
 import ContOurDoctors from "./ContComp/ContOurDoctors.vue";
+import ContOurServices from "./ContComp/ContOurServices.vue"
 export default {
     components: {
         ContIntroduction,
-        ContOurDoctors
+        ContOurDoctors,
+        ContOurServices
     },
     data() {
         return {
@@ -49,6 +51,38 @@ export default {
                     profession: "Nurse Pratictioner",
                     About:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vel incidunt officia provident distinctio optio minima beatae ut sunt nam quas id ullam ex et fugit, nobis praesentium quia. Reprehenderit."
                 }
+            ],
+            servicesList: [
+                {
+                    iconPath:"../src/assets/img/icon-14.png",
+                    title: "REHABILITATION CENTER",
+                    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vel incidunt officia provident distinctio optio minima beatae ut sunt nam quas id ullam ex et fugit, nobis praesentium quia. Reprehenderit."
+                },
+                {
+                    iconPath: "../src/assets/img/icon-15.png",
+                    title: "DENTAL IMPLANTS",
+                    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vel incidunt officia provident distinctio optio minima beatae ut sunt nam quas id ullam ex et fugit, nobis praesentium quia. Reprehenderit."
+                },
+                {
+                    iconPath: "../src/assets/img/icon-16.png",
+                    title: "MEDICINE RESEARCH",
+                    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vel incidunt officia provident distinctio optio minima beatae ut sunt nam quas id ullam ex et fugit, nobis praesentium quia. Reprehenderit."
+                },
+                {
+                    iconPath: "../src/assets/img/icon-11.png",
+                    title: "BLOOD BANK",
+                    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vel incidunt officia provident distinctio optio minima beatae ut sunt nam quas id ullam ex et fugit, nobis praesentium quia. Reprehenderit."
+                },
+                {
+                    iconPath: "../src/assets/img/icon-12.png",
+                    title: "PHARMACEUTICAL ADVICE",
+                    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vel incidunt officia provident distinctio optio minima beatae ut sunt nam quas id ullam ex et fugit, nobis praesentium quia. Reprehenderit."
+                },
+                {
+                    iconPath: "../src/assets/img/icon-13.png",
+                    title: "MEDICAL COUNCSELING",
+                    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vel incidunt officia provident distinctio optio minima beatae ut sunt nam quas id ullam ex et fugit, nobis praesentium quia. Reprehenderit."
+                },
             ]
         }
     }
@@ -57,4 +91,5 @@ export default {
 <template>
     <ContIntroduction :strongPoint="strongPointList"/>
     <ContOurDoctors :doctors="doctorsList"/>
+    <ContOurServices :services="servicesList"/>
 </template>

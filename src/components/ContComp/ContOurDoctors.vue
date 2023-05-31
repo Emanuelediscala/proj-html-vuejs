@@ -14,7 +14,7 @@ export default {
                 <hr class="w-25 m-auto my-4">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae magni dolorem sed ex suscipit dolore
                     rerum provident aperiam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit assumenda
-                    facilis beatae, vero aliquam aut soluta corporis qui omnis.</p>
+                    facilis beatae, vero aliquam aut soluta corporis qui.</p>
             </div>
             <div class="my-4 p-3 row gap-3">
                 <div v-for="doctor in doctors" class="card p-0">
