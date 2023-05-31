@@ -2,11 +2,15 @@
 import ContIntroduction from "./ContComp/ContIntroduction.vue"
 import ContOurDoctors from "./ContComp/ContOurDoctors.vue";
 import ContOurServices from "./ContComp/ContOurServices.vue"
+import ContFacilities from "./ContComp/ContFacilities.vue"
+import ContMakeanApp from "./ContComp/ContMakeanApp.vue";
 export default {
     components: {
         ContIntroduction,
         ContOurDoctors,
-        ContOurServices
+        ContOurServices,
+        ContFacilities,
+        ContMakeanApp
     },
     data() {
         return {
@@ -83,6 +87,12 @@ export default {
                     title: "MEDICAL COUNCSELING",
                     description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa vel incidunt officia provident distinctio optio minima beatae ut sunt nam quas id ullam ex et fugit, nobis praesentium quia. Reprehenderit."
                 },
+            ],
+            CarouselList: [
+            "../../src/assets/img/client-logos-1-200x188.png",
+            "../../src/assets/img/client-logos-2-200x188.png",
+            "../../src/assets/img/client-logos-3-200x188.png",
+            "../../src/assets/img/client-logos-4-200x188.png",
             ]
         }
     }
@@ -92,4 +102,7 @@ export default {
     <ContIntroduction :strongPoint="strongPointList"/>
     <ContOurDoctors :doctors="doctorsList"/>
     <ContOurServices :services="servicesList"/>
+    <ContFacilities/>
+    <ContMakeanApp :carousels="CarouselList"/>
 </template>
+
