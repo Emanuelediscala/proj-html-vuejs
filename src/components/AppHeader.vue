@@ -11,8 +11,6 @@ export default {
         return {
             linkList: ["HOME", "ABOUT", "DEPARTMENTS", "ARTICLES", "MAKE APPOINTMENT"]
         }
-
-
     }
 }
 </script>

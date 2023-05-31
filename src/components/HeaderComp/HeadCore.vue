@@ -2,7 +2,7 @@
 <template>
     <div class="position-absolute ">
         <h2 class="m-0" >Caring <span>For Life</span></h2>
-        <p class="my-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> sit amet consectetur adipisicing elit. Quae quam iusto </p>
+        <p class="my-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> sit amet consectetur adipisicing elit. Quae quam iusto </p>
         <button>LEARN MORE</button>
     </div>
 </template>
