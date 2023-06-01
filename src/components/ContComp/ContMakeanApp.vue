@@ -54,21 +54,20 @@ export default {
                 <input type="text" class="form-control my-1" placeholder="&#128197; Appointment Date"
                     aria-describedby="basic-addon1">
                 <textarea name="" id="" cols="30" rows="10" placeholder="How can we help?*">
-                                </textarea>
+                </textarea>
                 <button id="btnApp" class=" my-2 bg-Medium">MAKE AN APPOINTMENT</button>
             </form>
         </div>
-        <div id="jumbobgGradient" class="m-0">
-            <div class="w-50 m-auto p-3">
-                <swiper :slidesPerView="3" :spaceBetween="30" :freeMode="true" 
-                    :modules="modules" class="mySwiper">
-                    <swiper-slide v-for="carousel in carousels">
-                        <img :src="carousel" alt="">
-                    </swiper-slide>
-                </swiper>
-            </div>
+    </div>
+    <div id="jumbobgGradient">
+        <div class="w-50 m-auto p-3">
+            <swiper :slidesPerView="3" :spaceBetween="30" :freeMode="true" 
+                :modules="modules" class="mySwiper">
+                <swiper-slide v-for="carousel in carousels">
+                    <img :src="carousel" alt="">
+                </swiper-slide>
+            </swiper>
         </div>
-
     </div>
 </template>
 
