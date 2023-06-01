@@ -58,7 +58,6 @@ export default {
         <HeadCore />
     </header>
 </template>
-
 <style scoped>
 header {
     background-image: url("../assets/img/header-image-homepage.jpg");
