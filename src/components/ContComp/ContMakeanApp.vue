@@ -40,7 +40,7 @@ export default {
             <button class="bg-Dark">LEARN MORE</button>
         </div>
     </div>
-    <div id="jumbo">
+    <div id="Form">
         <div class="w-50 m-auto text-center text-white p-5">
             <h2 class="mt-5">Make An Appointment</h2>
             <hr class="text-white w-25 m-auto my-3">
@@ -141,8 +141,12 @@ div.bg-Dark button:hover {
     width: calc(100% - 1.5rem);
     border: none;
 }
+#btnApp:hover {
+    background-color: white;
+    color: #3597c3;
+}
 
-#jumbo {
+#Form {
     background-image: url("../../assets/img/make-an-appointment.jpg");
     height: 740px;
     background-position: center;

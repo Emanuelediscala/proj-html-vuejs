@@ -22,8 +22,8 @@ export default {
                         aria-expanded="false">
                         {{ link.name }}
                     </a>
-                    <ul class="dropdown-menu dropdown-menu-end" v-if="link.name !='HOME'">
-                        <li v-for="dropdown in link.dropDownList"><a class="dropdown-item text-dark" :href="link.id">{{ dropdown }}</a></li>
+                    <ul class="dropdown-menu dropdown-menu-end" v-show="link.name !='HOME'">
+                        <li  v-for="dropdown in link.dropDownList"><a class="dropdown-item text-dark" :href="link.id">{{ dropdown }}</a></li>
                     </ul>
                 </li>
             </ul>
@@ -53,7 +53,7 @@ ul.list-unstyled > li:last-child {
     background-color: #3BAFBF !important;
     border-radius: 5px;
 }
-ul.list-unstyled:hover > li:last-child {
+ul.list-unstyled > li:last-child:hover {
     background-color: white!important;
     color:#3BAFBF!important ;
 }

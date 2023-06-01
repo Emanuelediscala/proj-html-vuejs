@@ -18,22 +18,22 @@ export default {
                 {
                     iconPath: "../src/assets/img/icon-1.png",
                     title: "SAME DAY APPOINTMENTS",
-                    description: "Lorem ipsum, dolor  elit.Lorem ipsum dolor sit, Quod dolorem itaque"
+                    description: "Lorem ipsum, dolor  elit.Lorem ipsum  dolor sit, Quod dolorem "
                 },
                 {
                     iconPath: "../src/assets/img/icon-2.png",
                     title: "WORLD FACILITIES",
-                    description: "Lorem ipsum, dolor  elit.Lorem ipsum dolor sit, Quod dolorem itaque"
+                    description: "Lorem ipsum, dolor  elit.Lorem ipsum dolor sit, Quod dolorem "
                 },
                 {
                     iconPath: "../src/assets/img/icon-3.png",
                     title: "EXPORT DOCTORS",
-                    description: "Lorem ipsum, dolor .Lorem ipsum dolor sit, Quod dolorem itaque"
+                    description: "Lorem ipsum, dolor elit .Lorem ipsum dolor sit, Quod dolorem "
                 },
                 {
                     iconPath: "../src/assets/img/icon-4.png",
                     title: "COMPLEMENTARY THERAPIES",
-                    description: "Lorem ipsum, dolor .Lorem ipsum dolor sit, Quod dolorem itaque"
+                    description: "Lorem ipsum, dolor elit.Lorem ipsum dolor sit, Quod dolorem "
                 }
             ],
             doctorsList: [

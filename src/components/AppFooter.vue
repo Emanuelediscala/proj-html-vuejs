@@ -92,5 +92,9 @@ button{
     font-weight: 400;
     border:1px solid 
 }
+button:hover {
+    background-color: black;
+    color: white;
+}
 
 </style>

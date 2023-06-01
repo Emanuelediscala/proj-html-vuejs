@@ -15,9 +15,9 @@ export default {
         <div class="m-auto text-center">
             <h3>Welcome to Avada Health</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.  expedita sit. <br> Lorem ipsum dolor sit, Quod dolorem itaque aspernatur dignissimos repellat   </p>
-            <div class="d-flex">
+            <div class="d-flex w-75 gap-1 m-auto">
                 <div id="points" v-for="point in strongPoint">
-                    <img :src="point.iconPath" alt="">
+                    <img :src="point.iconPath" class="img-fluid" alt="">
                     <h5>{{ point.title }}</h5>
                     <p>{{ point.description }}</p>
                 </div>
@@ -33,7 +33,11 @@ h3 {
 p {
     line-height:2em;
     margin: 20px 0;
+    text-align: center;
     
+}
+.widcalc4 {
+    width: calc(100% / 4);
 }
 #points:hover h5 {
         color: #3BAFBF;
