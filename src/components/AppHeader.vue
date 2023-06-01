@@ -9,10 +9,47 @@ export default {
     },
     data() {
         return {
-            linkList: ["HOME", "ABOUT", "DEPARTMENTS", "ARTICLES", "MAKE APPOINTMENT"]
+            linkList: [
+                {
+                    name: "HOME",
+                    id: "#"
+                },
+                {
+                    name: "ABOUT",
+                    dropDownList: ["Same Day Appointments",
+                        "World Facilities",
+                        "Export Doctors",
+                        "Complementary Therapies"],
+                    id: "#points"
+                },
+                {
+                    name: "DEPARTMENTS",
+                    dropDownList: [
+                        "General Practise",
+                        "Cardiology",
+                        "Pediatrics",
+                        "Diabetes Care",
+                        "Pre-natal Care",
+                        "Ultrasound Echocardiogram"],
+                    id: "#MedicalDep"
+                },
+                {
+                    name: "ARTICLES",
+                    dropDownList: [
+                        "Johnsnow",
+                        "Tony Stark",
+                        "Anna Smith"],
+                    id: "#Ourdoctors"
+                },
+                { 
+                    name: "MAKE APPOINTMENT",
+                    id: "#jumbo"
+                } 
+                ]
+                }
         }
     }
-}
+
 </script>
 <template>
     <header class="position-relative">
@@ -27,5 +64,5 @@ header {
     height: 740px;
     background-size: cover;
     background-repeat: no-repeat;
-} 
+}
 </style>

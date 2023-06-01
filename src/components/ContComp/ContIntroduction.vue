@@ -16,7 +16,7 @@ export default {
             <h3>Welcome to Avada Health</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.  expedita sit. <br> Lorem ipsum dolor sit, Quod dolorem itaque aspernatur dignissimos repellat   </p>
             <div class="d-flex">
-                <div class="" v-for="point in strongPoint">
+                <div id="points" v-for="point in strongPoint">
                     <img :src="point.iconPath" alt="">
                     <h5>{{ point.title }}</h5>
                     <p>{{ point.description }}</p>
@@ -25,7 +25,7 @@ export default {
         </div>
     </div>
 </template>
-<style scoped>
+<style lang="scss" scoped>
 
 h3 {
     font-weight: 300!important;
@@ -34,6 +34,10 @@ p {
     line-height:2em;
     margin: 20px 0;
     
+}
+#points:hover h5 {
+        color: #3BAFBF;
+        cursor: pointer;
 }
 h5 {
     white-space: nowrap;

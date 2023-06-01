@@ -53,7 +53,7 @@ export default {
                 <input type="Number" class="form-control my-1" aria-describedby="basic-addon1" placeholder="Phone Number">
                 <input type="text" class="form-control my-1" placeholder="&#128197; Appointment Date"
                     aria-describedby="basic-addon1">
-                <textarea name="" id="" cols="30" rows="10" placeholder="How can we help?*">
+                <textarea  cols="30" rows="10" placeholder="How can we help?*">
                 </textarea>
                 <button id="btnApp" class=" my-2 bg-Medium">MAKE AN APPOINTMENT</button>
             </form>
@@ -125,7 +125,18 @@ button {
     border: 1px solid white;
     padding: 5px 15px;
 }
-
+div.bg-Light button:hover {
+    background-color: white!important;
+    color: #3aafbf!important;
+}
+div.bg-Medium button:hover {
+    background-color: white!important;
+    color: #3597c3!important;
+}
+div.bg-Dark button:hover {
+    background-color: white!important;
+    color: #327ec7!important;
+}
 #btnApp {
     width: calc(100% - 1.5rem);
     border: none;

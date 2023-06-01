@@ -3,7 +3,7 @@
 <template>
     <div id="facilities">
     <div class="container p-5">
-        <div class="w-50 text-center text-white m-auto p-3">
+        <div  class="w-50 text-center text-white m-auto p-3">
             <img src="../../assets/img/icon-7.png" alt="">
             <h3 class=" my-1">TOUR OUR FACILITIES</h3>
             <hr class="w-25 m-auto  my-4">
@@ -24,5 +24,6 @@
 hr {
     border: 1px solid white;
 }
+
 
 </style>

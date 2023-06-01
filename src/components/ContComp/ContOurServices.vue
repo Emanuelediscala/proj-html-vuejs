@@ -14,7 +14,7 @@ export default {
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat id ea harum, rem beatae modi recusandae
                 reiciendis nesciunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis similique.</p>
         </div>
-        <div class="row m-auto w-100 text-center">
+        <div id="ServicesPost" class="row m-auto w-100 text-center">
                 <div id="card" class="p-1"  v-for="service in services">
                     <img :src="service.iconPath" alt="">
                     <h5>{{service.title}}</h5>
@@ -33,6 +33,10 @@ export default {
 h5 {
     font-weight: 300;
     margin: 15px 0;
+}
+#card:hover  h5 {
+    color: #3BAFBF;
+    cursor: pointer;
 }
 p {
     font-weight: 200;

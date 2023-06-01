@@ -2,7 +2,7 @@
 <template>
     <div class="position-absolute ">
         <h2 class="m-0" >Caring <span>For Life</span></h2>
-        <p class="my-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> sit amet consectetur adipisicing elit. Quae quam iusto </p>
+        <p class="my-4">Kinds Words can be short and easy to speak. but their echoes are truly <br> endless. Avada Health focuses on you as if it was our own family</p>
         <button>LEARN MORE</button>
     </div>
 </template>
@@ -18,6 +18,7 @@ h2 {
     color: white!important;
     display: inline;
     font-weight: 100!important;
+    font-size: 55px;
 }
 span:last-child {
     color: #3BAFBF!important;
@@ -25,6 +26,10 @@ span:last-child {
 p{
     color: white;
     white-space: normal;
+}
+button:hover {
+    background-color: white!important;
+    color:#3BAFBF;
 }
 
 </style>

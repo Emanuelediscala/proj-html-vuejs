@@ -8,7 +8,7 @@ export default {
 <template>
     <div id="jumbo">
         <div class="container p-5 ">
-            <div class="text-center w-50 p-1 mt-4 m-auto">
+            <div id="Ourdoctors" class="text-center w-50 p-1 mt-4 m-auto">
                 <img src="../../assets/img/icon-5.png" class="img-fluid " alt="">
                 <h3>MEET OUR DOCTORS</h3>
                 <hr class="w-25 m-auto my-4">
