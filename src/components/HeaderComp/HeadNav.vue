@@ -32,6 +32,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../../style/variables.scss" as *;
+
 #logo {
     width: 200px;
 }
@@ -42,7 +44,7 @@ a {
 }
 
 a:hover {
-    color: #3BAFBF !important;
+    color: $primaryColor !important;
 }
 ul.dropdown-menu a:hover {
     color:white;
@@ -50,12 +52,12 @@ ul.dropdown-menu a:hover {
 
 ul.list-unstyled > li:last-child {
     padding: 0px 10px !important;
-    background-color: #3BAFBF !important;
+    background-color: $primaryColor !important;
     border-radius: 5px;
 }
 ul.list-unstyled > li:last-child:hover {
     background-color: white!important;
-    color:#3BAFBF!important ;
+    color:$primaryColor!important ;
 }
 
 

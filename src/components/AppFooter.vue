@@ -37,7 +37,8 @@
 </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+@use "../style/variables.scss" as *;
 footer {
     height: 400px;
 }
@@ -52,7 +53,7 @@ p {
     padding: 5px;
 }
 .fa-solid {
-    color:#3aafbf;
+    color:$primaryColor;
 }
 .fa-square-facebook {
     color: #3c5998;

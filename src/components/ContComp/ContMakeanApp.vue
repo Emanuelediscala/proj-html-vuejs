@@ -71,13 +71,15 @@ export default {
     </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+@use "../../style/variables.scss" as *;
+
 template:first-child {
     background-image: url("../../assets/img/rgb-gradient-bar-for-logo-carrasel.jpg");
 }
 
 .bg-Light {
-    background-color: #3aafbf;
+    background-color: $primaryColor;
 }
 
 .bg-Medium {
@@ -127,7 +129,7 @@ button {
 }
 div.bg-Light button:hover {
     background-color: white!important;
-    color: #3aafbf!important;
+    color: $primaryColor!important;
 }
 div.bg-Medium button:hover {
     background-color: white!important;

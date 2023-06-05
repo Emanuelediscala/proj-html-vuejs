@@ -26,6 +26,7 @@ export default {
     </div>
 </template>
 <style lang="scss" scoped>
+@use "../../style/variables.scss" as *;
 
 h3 {
     font-weight: 300!important;
@@ -40,7 +41,7 @@ p {
     width: calc(100% / 4);
 }
 #points:hover h5 {
-        color: #3BAFBF;
+        color: $primaryColor;
         cursor: pointer;
 }
 h5 {

@@ -9,6 +9,7 @@
 
 <style lang="scss" scoped>
 @use "../../style/generic.scss" as *;
+@use "../../style/variables.scss" as *;
 
 div {
     top: 40% ;
@@ -21,7 +22,7 @@ h2 {
     font-size: 55px;
 }
 span:last-child {
-    color: #3BAFBF!important;
+    color: $primaryColor!important;
 }
 p{
     color: white;
@@ -29,7 +30,7 @@ p{
 }
 button:hover {
     background-color: white!important;
-    color:#3BAFBF;
+    color:$primaryColor;
 }
 
 </style>
