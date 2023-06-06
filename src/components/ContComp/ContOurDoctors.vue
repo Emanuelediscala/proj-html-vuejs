@@ -1,5 +1,6 @@
 <script>
 export default {
+    // CARICO PROPS
     props: {
         doctors:Object
     }
@@ -17,6 +18,7 @@ export default {
                     facilis beatae, vero aliquam aut soluta corporis qui.</p>
             </div>
             <div class="my-4 p-3 row gap-3">
+                <!-- CREAZIONE DINAMICA DIV -->
                 <div v-for="doctor in doctors" class="card p-0">
                     <img :src="doctor.portraitPath" class="card-img-top " alt="">
                     <div class="card-body">

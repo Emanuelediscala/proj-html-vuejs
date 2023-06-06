@@ -15,8 +15,9 @@ export default {
             <img id="logo" src="../../assets/img/medical_logo_2x_light.png" alt="">
         </div>
         <div>
-            
+            <!-- CREAZIONI ELEMENTI NAV DINAMICA -->
             <ul class="list-unstyled d-flex gap-3">
+                <!-- CONDITION PER DROPDOWN -->
                 <li class="nav-item dropdown text-white" v-for="(link, i) in links">
                     <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">

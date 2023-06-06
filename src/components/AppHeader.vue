@@ -1,14 +1,16 @@
 <script>
 import HeadNav from "./HeaderComp/HeadNav.vue"
 import HeadCore from "./HeaderComp/HeadCore.vue"
-
+// IMPORTO COMPONENTI
 export default {
     components: {
         HeadNav,
         HeadCore
     },
+    
     data() {
         return {
+            // DEFINISCO ARRAY DI OGGETTI PER NAVBAR 
             linkList: [
                 {
                     name: "HOME",
@@ -53,11 +55,13 @@ export default {
 
 </script>
 <template>
+    <!-- PASSO LE PROPS AI COMPONENTI -->
     <header class="position-relative">
         <HeadNav :links="linkList" />
         <HeadCore />
     </header>
 </template>
+<!-- PARTE LAYOUT CSS -->
 <style scoped>
 header {
     background-image: url("../assets/img/header-image-homepage.jpg");

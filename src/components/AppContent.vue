@@ -1,4 +1,5 @@
 <script>
+// IMPORTO COMPONENTI
 import ContIntroduction from "./ContComp/ContIntroduction.vue"
 import ContOurDoctors from "./ContComp/ContOurDoctors.vue";
 import ContOurServices from "./ContComp/ContOurServices.vue"
@@ -12,6 +13,7 @@ export default {
         ContFacilities,
         ContMakeanApp
     },
+    // DEFINISCO ARRAY DI OGGETTI 
     data() {
         return {
             strongPointList: [
@@ -99,6 +101,7 @@ export default {
 }
 </script>
 <template>
+    <!-- PASSO LE PROPS AI FIGLI -->
     <main>
         <ContIntroduction :strongPoint="strongPointList" />
         <ContOurDoctors :doctors="doctorsList" />

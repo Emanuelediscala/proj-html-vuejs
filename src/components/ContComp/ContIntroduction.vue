@@ -1,6 +1,7 @@
 <script>
 
 export default {
+    // CARICO PROPS
     props: {
         strongPoint:Object
     },
@@ -16,6 +17,7 @@ export default {
             <h3>Welcome to Avada Health</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.  expedita sit. <br> Lorem ipsum dolor sit, Quod dolorem itaque aspernatur dignissimos repellat   </p>
             <div class="d-flex w-75 gap-1 m-auto">
+                <!-- CRAZIONE DINAMICA ELEMENTI -->
                 <div id="points" v-for="point in strongPoint">
                     <img :src="point.iconPath" class="img-fluid" alt="">
                     <h5>{{ point.title }}</h5>
@@ -25,6 +27,7 @@ export default {
         </div>
     </div>
 </template>
+<!-- DEFINISCO CSS -->
 <style lang="scss" scoped>
 @use "../../style/variables.scss" as *;
 

@@ -1,11 +1,14 @@
 <script>
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { FreeMode, Pagination } from 'swiper';
+// IMPORTO COMPONENTI PER SWIPER
 export default {
+    // CARICO COMP SWIPER
     components: {
         Swiper,
         SwiperSlide,
     },
+    // CARICO PROPS
     props: {
         carousels: Array
     },
@@ -40,6 +43,7 @@ export default {
             <button class="bg-Dark">LEARN MORE</button>
         </div>
     </div>
+    <!-- MAKE AN APP -->
     <div id="Form">
         <div class="w-50 m-auto text-center text-white p-5">
             <h2 class="mt-5">Make An Appointment</h2>
@@ -48,8 +52,8 @@ export default {
                 quis nulla fugit Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque explicabo molestiae nobis
                 magnam optio incidunt omnis pariatur sapiente natus expedita! Quis voluptatum culpa,</p>
             <form action="" class="m-auto row mx-0 gap-2">
-                <input type="text" class="form-control my-1" value="Name" aria-describedby="basic-addon1">
-                <input type="email" class="form-control my-1" value="Email" aria-describedby="basic-addon1">
+                <input type="text" class="form-control my-1" placeholder="Name" aria-describedby="basic-addon1">
+                <input type="email" class="form-control my-1" placeholder="Email" aria-describedby="basic-addon1">
                 <input type="Number" class="form-control my-1" aria-describedby="basic-addon1" placeholder="Phone Number">
                 <input type="text" class="form-control my-1" placeholder="&#128197; Appointment Date"
                     aria-describedby="basic-addon1">
@@ -59,6 +63,7 @@ export default {
             </form>
         </div>
     </div>
+    <!-- SLIDER -->
     <div id="jumbobgGradient">
         <div class="w-50 m-auto p-3">
             <swiper :slidesPerView="3" :spaceBetween="30" :freeMode="true" 
